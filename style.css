@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+  gap: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+main{
+  background-color: rgb(233, 226, 226);
+}
+  
+/* Header */
+.header-title{
+  color: rgb(235, 177, 20);
+  font-family: "Spicy Rice", serif;
+  font-weight: 100;
+  font-style: normal;
+  padding: 10px 30px;
+  font-size: 40px;
+}
+
+
+/* Main-hero */
+.container-hero h5{
+  font-family: "Gowun Batang", serif;
+  color: rgba(45, 46, 45, 0.63);
+}
+
+.container-hero h1{
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 44px;
+}
+
+.container-hero{
+  max-width: 1470px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-70{
+  width: 70%; 
+}
+
+.col-30{
+  width: 30%;
+}
+
+.card-details{
+  background-color: white;
+  height: 100%;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+.card-details h2{
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.card-details ul{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  font-size: 18px;
+}
+
+

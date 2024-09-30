@@ -1,0 +1,53 @@
+/* media queries */
+/* Tablet */
+@media (max-width: 991.99px) {
+  br{
+    display: none;
+  }
+
+  .container-hero h1{
+    font-family: "Kanit", sans-serif;
+    font-weight:600;
+    font-style: normal;
+    font-size: 34px;
+  }
+
+  .container-hero {
+    max-width: 1020px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .row {
+    display: block;
+  }
+
+  .col-70 {
+    width: 100%;
+  }
+
+  .col-30 {
+    width: 100%;
+  }
+
+  .card-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 15px;
+  }
+
+  .card-details h2 {
+    display: block;
+    padding-bottom: 10px;
+  }
+
+  .card-details ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 91px;
+    font-size: 20px;
+    padding-bottom: 18px;
+  }
+}
