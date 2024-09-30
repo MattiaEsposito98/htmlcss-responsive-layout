@@ -51,6 +51,16 @@
     padding-bottom: 18px;
   }
 
+  /* Container con bottoni */
+  .container-btn{
+    width: 100%;
+  }
+
+.container-btn .row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
   .btn-social span{
     display: none;
   }
