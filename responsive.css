@@ -48,10 +48,6 @@
   }
 
   /* Container con bottoni */
-  br{
-    display: none;
-  }
-
   .container-btn{
     width: 100%;
   }
@@ -82,6 +78,9 @@
     font-style: normal;
     text-align: center;
     font-size: 40px;
+  }
+  .sweet{
+    display: none;
   }
 
 .container-hero .row{
@@ -123,8 +122,4 @@ margin: 12px 0;
   float:none;
 }
 
-.container-hero img{
-  display: flex;
-  justify-content: center;
-}
 }

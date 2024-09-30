@@ -136,7 +136,7 @@ main {
   margin-bottom: 20px;
 }
 
-.container-hero h2::after{
+.title-paragraph::after{
     content: '';
     display: block;
     width: 70px;
@@ -144,7 +144,7 @@ main {
     border-bottom: 3px solid orange;
 }
 
-.container-hero img{
+.paragraph img{
   float: left;
   margin-right: 10px;
 }
