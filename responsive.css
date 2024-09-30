@@ -64,7 +64,14 @@
   .btn-social span{
     display: none;
   }
+
+  /* Container con immagine e paragrafo */
+.title-paragraph{
+  margin-top: 40px;
 }
+}
+
+
 
 /* Mobile */
 @media (max-width: 767.99px){
@@ -111,5 +118,13 @@ margin: 12px 0;
   display: none;
 }
 
+/* Container con immagine e paragrafo */
+.paragraph img {
+  float:none;
+}
 
+.container-hero img{
+  display: flex;
+  justify-content: center;
+}
 }

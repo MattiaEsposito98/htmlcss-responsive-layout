@@ -91,7 +91,6 @@ main {
 
 /* Container per i bottoni */
 .container-btn {
-  width: 1470px;
   margin-top: 30px;
 }
 
@@ -127,8 +126,34 @@ main {
   color: red;
 }
 
-
 .col-100{
   width: 100%;
   margin-top: 30px;
 }
+
+.title-paragraph{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.container-hero h2::after{
+    content: '';
+    display: block;
+    width: 70px;
+    height: 20px;
+    border-bottom: 3px solid orange;
+}
+
+.container-hero img{
+  float: left;
+  margin-right: 10px;
+}
+
+.container-hero p {
+  font-size: 22px;
+  padding-bottom: 30px;
+}
+
+
+
+
