@@ -1,10 +1,6 @@
 /* media queries */
 /* Tablet */
 @media (max-width: 991.99px) {
-  br{
-    display: none;
-  }
-
   .container-hero h1{
     font-family: "Kanit", sans-serif;
     font-weight:600;
@@ -52,6 +48,10 @@
   }
 
   /* Container con bottoni */
+  br{
+    display: none;
+  }
+
   .container-btn{
     width: 100%;
   }
@@ -64,4 +64,45 @@
   .btn-social span{
     display: none;
   }
+}
+
+/* Mobile */
+@media (max-width: 767.99px){
+  .header-title {
+    color: rgb(235, 177, 20);
+    font-family: "Spicy Rice", serif;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    font-size: 40px;
+  }
+
+.container-hero .row{
+  display: flex;
+}
+
+.card-details{
+  display: flex;
+  flex-direction: column;
+}
+
+.card-details h2{
+  margin: 12px 0;
+}
+
+.card-details ul, li {
+display: block;
+margin: 12px 0;
+}
+
+.btn-social {
+  line-height: 40px;
+  border-radius: 50%; 
+  width: 40%;
+  font-size: 16px;
+  background-color: white;
+  border-color: white;
+  box-shadow: 10px 5px 3px rgb(199, 201, 202);
+  cursor: pointer;
+}
 }
