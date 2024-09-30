@@ -50,4 +50,8 @@
     font-size: 20px;
     padding-bottom: 18px;
   }
+
+  .btn-social span{
+    display: none;
+  }
 }
